@@ -28,11 +28,11 @@ const TicTacToe = () => {
             return 0;
         }
         if(count % 2 === 0){
-            e.target.innerHTML = `<img width='100px' height='100px' src="${Cross}"/>`
+            e.target.innerHTML = `<img width='70%' height='70%' src="${Cross}"/>`
             data[num] = 'x'
             setCount(++count)
         }else{
-            e.target.innerHTML = `<img width='100px' height='100px' src="${Circle}"/>`
+            e.target.innerHTML = `<img width='70%' height='70%' src="${Circle}"/>`
             data[num] = 'o'
             setCount(++count)
         }
